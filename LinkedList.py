@@ -39,3 +39,5 @@ class linked_list:
 
     def remove_last(self):
         self.last = None
+        #TODO
+            
