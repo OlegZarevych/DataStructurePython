@@ -2,6 +2,7 @@
 import LinkedList
 from BinaryTree import *
 from Stack import *
+from Queue import *
 
 def main():
     
@@ -32,6 +33,13 @@ def main():
     print(stack.pop())
     print(stack.pop())
     print(stack.size())
+    
+    print("Queue implementation")
+    q = Queue()
+    q.push("first")
+    q.push("second")
+    print(q.pop())
+    print(q.pop())
 
 if __name__ == "__main__":
     main()
