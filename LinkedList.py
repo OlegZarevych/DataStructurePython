@@ -28,7 +28,7 @@ class linked_list:
     def list_print(self):
         node = self.first 
         while node:
-            print node.data
+            print (node.data)
             node = node.next
     
     def add_first(self, data):
