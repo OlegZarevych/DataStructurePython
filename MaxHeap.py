@@ -42,9 +42,12 @@ class max_heap:
                     
     def pop(self):
         pass
+    #TODO:
+    
     
     def remove(self):
         pass
+    #TODO:
     
     def length(self):
         return self.count
